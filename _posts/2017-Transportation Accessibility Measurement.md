@@ -12,7 +12,7 @@ tags:
 
 ## Abstract
 
-To investigate the influence of location, density, skill-level location, and transportation on the accessibilities, we set up a model with varying inputs to be specified. The general inputs to the model is the number of people, the number of jobs, city size, city center size, city scale (large city or small city). The accessibility measures we use are negative linear cumulative opportunity measure and exponential gravity-type measure [1]. The negative linear cumulative opportunity measure is described by Eqn. 1 and 2, where 𝐴" is the accessibility, 𝑊$ is the weighted area of location 𝑗, 𝑑"$ is the travel time in minutes between location 𝑖 and location 𝑗, 𝑇 is a constant set to 30.
+To investigate the influence of location, density, skill-level location, and transportation on the accessibilities, we set up a model with varying inputs to be specified. The general inputs to the model is the number of people, the number of jobs, city size, city center size, city scale (large city or small city). The accessibility measures we use are negative linear cumulative opportunity measure and exponential gravity-type measure [1]. The negative linear cumulative opportunity measure is described by Eqn. 1 and 2, where A_i is the accessibility, W_j is the weighted area of location j, d_ij is the travel time in minutes between location i and location j, T is a constant set to 30.
 
 
 ## iOS 12 和 ARKit 2.0
