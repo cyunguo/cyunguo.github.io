@@ -14,6 +14,8 @@ tags:
 
 >本文转载自美图点评技术团队的：[深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html)，略有修改。
 
+{% raw %}
+
 # 前言
  
 
@@ -643,3 +645,5 @@ void *objc_destructInstance(id obj)
 
 正如侯捷先生所讲-“源码面前，了无秘密”，Apple的Cocoa Touch框架虽然并不开源，但是Objective-C的runtime和Core Foundation却是完全开放源码的(在<http://www.opensource.apple.com/tarballs/>可以下载到全部的开源代码)。
 本系列runtime源码学习将会持续更新，意犹未尽的同学可以自行到上述网站下载源码学习。行笔简陋，如有错误，望指正。
+
+{% endraw %}
