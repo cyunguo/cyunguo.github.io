@@ -65,7 +65,7 @@ gitalk:
   clientSecret: 38e401142bc55ae281df6191dbb5e9c4126902ff    #生成的clientSecret
   repo: cyunguo.github.io    #仓库名称
   owner: cyunguo    #github用户名
-  admin: ["cyunguo", "tc-imba"]
+  admin: cyunguo
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
