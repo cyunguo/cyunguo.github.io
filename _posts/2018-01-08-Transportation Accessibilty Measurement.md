@@ -71,7 +71,7 @@ Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment 
 #### 2.1 Time-Space
 (i) Potential Path Space (PPS) and Weighted Sum of Opportunity ($A_s$):
 
-- **$$  PPS = \left\{ (k,t)|t_i + \frac{d_{ik}}{v} \leq t \leq t_j - \frac{d_{kj}}{v} $$**
+- **$$  PPS = \left\{ (k,t)|t_{i} + \frac{d_{ik}}{v} \leq t \leq t_{j} - \frac{d_{kj}}{v} \right\{ $$**
 
 where $t_i$ is the last ending time of the activity at location $i$, $t_j$ is the earliest starting time of the activity at location $j$ and $v$ is the average travel speed on the transportation network
 
@@ -132,22 +132,13 @@ For lower bound, all households and jobs are located in the periphery of the cit
 Model 1 refers to the model that has people living in the center and job located in the periphery, while model 2 refers to the opposite. 
 For all models, the number of people or household is 1000; the number of jobs are 800; the city is of size 10 by 10; the city center is of 3 by 3.
 
-\begin{table}[htbp!]
-    \begin{tabular}{|r|c|c|c|c|}
-    \hline
-        & Upper Bound &  Lower Bound & Model 1 & Model 2\\
-    \hline
-    Gravity Measure & 0.9686 & 0.8888 & 0.9141 & 0.9136\\
-    \hline
-    Percentage difference to lower bound &  8.97\% & 0 & 2.85\% & 2.79\% \\
-    \hline\hline
-    Cumulative Opportunity &  0.8958 & 0.6938 & 0.7460 & 0.7444 \\
-    \hline
-    Percentage difference to lower bound & 29.1\% & 0 & 7.52\% & 7.29\% \\   
-    \hline                                                              
-    \end{tabular}
-    \caption{Results of Variable Control: HH Location Relative to Job Location}\label{1}
-\end{table}
+|    | Upper Bound |  Lower Bound | Model 1 | Model 2 |
+| :------| ：------: | :------: |
+|Gravity Measure | 0.9686 | 0.8888 | 0.9141 | 0.9136 |
+|Percentage difference to lower bound |  8.97$\%$ | 0 | 2.85$\%$ | 2.79$\%$ |
+|Cumulative Opportunity |  0.8958 | 0.6938 | 0.7460 | 0.7444 |
+|Percentage difference to lower bound | 29.1$\%$ | 0 | 7.52$\%$ | 7.29$\%$ |   
+   Table 1: Results of Variable Control: HH Location Relative to Job Location
 
 \begin{figure}
   \centering
