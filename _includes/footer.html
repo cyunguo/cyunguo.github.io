@@ -114,6 +114,17 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
+<!-- LaTeX Support -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+        }
+    });
+</script>
+
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script type="text/javascript">
@@ -174,7 +185,7 @@
     }
 </script>
 
-<!--fastClick.js -->
+<!-- fastClick.js -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
         var $nav = document.querySelector("nav");

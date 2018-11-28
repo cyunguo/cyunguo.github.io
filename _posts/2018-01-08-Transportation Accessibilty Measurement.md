@@ -26,7 +26,7 @@ The focus of this report is on assessing alternative accessibility measures: pla
 
 $$ A_i = \sum_{j} W_{j}d_{ij}^{-\alpha} $$
 
-where $\alpha$ = 0.8, $W_j$ is the weighted area of location j and $d_ij$ is the travel time in minutes between location i and j.
+where $\alpha = 0.8$, $W_j$ is the weighted area of location j and $d_ij$ is the travel time in minutes between location i and j.
 
 Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment of Accessibility Measure.” Center for transportation research.
            University of Texas at Austin. 
@@ -35,16 +35,16 @@ Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment 
 (ii) Exponential Model
 $$ A_i = \sum_{j} W_{j}e^{-\beta d{ij}} $$
 
-where $\beta$ = 0.12
+where $\beta = 0.12$
 
 Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment of Accessibility Measure.” Center for transportation research.
            University of Texas at Austin. 
 
 (iii) Gaussian Model
 
-$$ A_i = \sun_{j} W_{j}e^{-d_{ij}^2/v} $$
+$$ A_i = \sum_{j} W_{j}e^{-d_{ij}^2/v} $$
 
-where $v$ = 10
+where $v = 10$
 
 Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment of Accessibility Measure.” Center for transportation research.
            University of Texas at Austin. 
@@ -77,7 +77,7 @@ where $t_i$ is the last ending time of the activity at location $i$, $t_j$ is th
 
 - **$$ A_s = \sum W_kI(k)$$**
 
-where I(k) = 1 if k is within the feasible opportunity set, 0 otherwise.
+where $I(k) = 1$ if k is within the feasible opportunity set, 0 otherwise.
 
 Suppose the case that there are 100 activities happening in the area and each person performs 5 activities with random position, starting time and ending time. 
 The first step is to calculate for each activity whether it is within the range of potential path space (PPS).
