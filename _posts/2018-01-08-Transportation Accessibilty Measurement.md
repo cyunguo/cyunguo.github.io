@@ -71,7 +71,7 @@ Reference: Bhat, M., Handy, S., Kockelman, K., and Mahmassani, H. “Assessment 
 #### 2.1 Time-Space
 (i) Potential Path Space (PPS) and Weighted Sum of Opportunity ($A_s$):
 
-- **$$  PPS = \left\{ (k,t)|t_{i} + \frac{d_{ik}}{v} \leq t \leq t_{j} - \frac{d_{kj}}{v} \right\{ $$**
+- **$$ PPS = \left\{ (k,t)|t_{i} + \frac{d_{ik}}{v} \leq t \leq t_{j} - \frac{d_{kj}}{v} \right\{$$**
 
 where $t_i$ is the last ending time of the activity at location $i$, $t_j$ is the earliest starting time of the activity at location $j$ and $v$ is the average travel speed on the transportation network
 
@@ -140,33 +140,17 @@ For all models, the number of people or household is 1000; the number of jobs ar
 |Percentage difference to lower bound | 29.1$\%$ | 0 | 7.52$\%$ | 7.29$\%$ |   
    Table 1: Results of Variable Control: HH Location Relative to Job Location
 
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=0.6]{Lowerbound.PNG}\\
-  \caption{Household location, job position and accessibility measures of the lower bound model.}\label{1}
-\end{figure}
+![avatar](https://github.com/cyunguo/cyunguo.github.io/blob/master/img/Lowerbound.PNG)
+Figure 1. Household location, job position and accessibility measures of the lower bound model.
 
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=0.6]{Upperbound.PNG}\\
-  \caption{Household location, job position and accessibility measures of the upper bound model.}\label{2}
-\end{figure}
+![avatar](https://github.com/cyunguo/cyunguo.github.io/blob/master/img/Upperbound.PNG)
+Figure 2. Household location, job position and accessibility measures of the upper bound model.
 
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=0.6]{Model1.PNG}\\
-  \caption{Household location, job position and accessibility measures of Model 1.}\label{3}
-\end{figure}
+![avatar](https://github.com/cyunguo/cyunguo.github.io/blob/master/img/Model1.PNG)
+Figure 3. Household location, job position and accessibility measures of Model 1.
 
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=0.6]{Model2.PNG}\\
-  \caption{Household location, job position and accessibility measures of Model 2.}\label{4}
-\end{figure}
+![avatar](https://github.com/cyunguo/cyunguo.github.io/blob/master/img/Model2.PNG)
+Figure 4. Household location, job position and accessibility measures of Model 2.
 
 The results of the location comparison are presented in Table 1 and Figure 1-4. 
 Based on the results, the location may have a large effect on the accessibility 
