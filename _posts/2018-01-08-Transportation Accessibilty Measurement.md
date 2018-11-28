@@ -140,16 +140,16 @@ For all models, the number of people or household is 1000; the number of jobs ar
 |Percentage difference to lower bound | 29.1$\%$ | 0 | 7.52$\%$ | 7.29$\%$ |   
    Table 1: Results of Variable Control: HH Location Relative to Job Location
 
-![](../img/Lowerbound.PNG)
+![](/img/Lowerbound.PNG)
 Figure 1. Household location, job position and accessibility measures of the lower bound model.
 
-![](../img/Upperbound.PNG)
+![](/img/Upperbound.PNG)
 Figure 2. Household location, job position and accessibility measures of the upper bound model.
 
-![](../img/Model1.PNG)
+![](/img/Model1.PNG)
 Figure 3. Household location, job position and accessibility measures of Model 1.
 
-![](../img/Model2.PNG)
+![](/img/Model2.PNG)
 Figure 4. Household location, job position and accessibility measures of Model 2.
 
 The results of the location comparison are presented in Table 1 and Figure 1-4. 
@@ -184,16 +184,16 @@ People are only able to work on the job that has skill level lower or equal to h
     \caption{Results of Variable Control: Job Density}\label{2}
 \end{table}
 
-![](../img/original.PNG)
+![](/img/original.PNG)
 Figure 5. Household location, job position and accessibility measures of the original model.
 
-![](../img/double_skill_1.PNG)
+![](/img/double_skill_1.PNG)
 Figure 6. Household location, job position and accessibility measures of skill level 1 jobs doubled.
 
-![](../img/double_skill_2.PNG)
+![](/img/double_skill_2.PNG)
 Figure 7. Household location, job position and accessibility measures of skill level 2 jobs doubled.
 
-![](../img/double_skill_3.PNG)
+![](/img/double_skill_3.PNG)
 Figure 8. Household location, job position and accessibility measures of skill level 3 jobs doubled.
 
 The results of the job density comparison are presented in Table 2 and Figure 5-8. 
@@ -236,28 +236,28 @@ Model 4 has both highest skill level people and job located in the center while 
     \caption{Results of Variable Control: Skill Level Distribution}\label{3}
 \end{table}
 
-![](../img/small_model1.PNG)
+![](/img/small_model1.PNG)
 Figure 9. Household location, job position and accessibility measures of small city model 1.
 
-![](../img/small_model2.PNG)
+![](/img/small_model2.PNG)
 Figure 10. Household location, job position and accessibility measures of small city model 2.
 
-![](../img/small_model3.PNG)
+![](/img/small_model3.PNG)
 Figure 11. Household location, job position and accessibility measures of small city model 3.
 
-![](../img/small_model4.PNG)
+![](/img/small_model4.PNG)
 Figure 12. Household location, job position and accessibility measures of small city model 4.
 
-![](../img/large_model1.PNG)
+![](/img/large_model1.PNG)
 Figure 13. Household location, job position and accessibility measures of large city model 1.
 
-![](../img/large_model2.PNG)
+![](/img/large_model2.PNG)
 Figure 14. Household location, job position and accessibility measures of large city model 2.
 
-![](../img/large_model3.PNG)
+![](/img/large_model3.PNG)
 Figure 15. Household location, job position and accessibility measures of large city model 3.
 
-![](../img/large_model4.PNG)
+![](/img/large_model4.PNG)
 Figure 16. Household location, job position and accessibility measures of large city model 4.
 
 The results are shown in Table 3 and Figure 9-16. 
@@ -279,10 +279,10 @@ while in model 2, everyone walk to work (lower bound).
 In model 3, people with skill level 3 drive to work; people with skill level 2 take bus; and people with skill level 1 walk. 
 Model 4 is similar to model 3, and the only difference is skill level 2 people drive or take bus to work.
 
-![](../img/large.PNG)
+![](/img/large.PNG)
 Figure 17. Household and job position of large city.
 
-![](../img/small.PNG)
+![](/img/small.PNG)
 Figure 18. Household and job position of small city.
 
 \begin{table}[htbp!]
@@ -304,28 +304,28 @@ Figure 18. Household and job position of small city.
     \caption{Results of Variable Control: Transportation Method Change}\label{4}
 \end{table}
 
-![](../img/large_model1.PNG)
+![](/img/large_model1.PNG)
 Figure 19. Accessibility measures of large city model 1.
 
-![](../img/large_model2.PNG)
+![](/img/large_model2.PNG)
 Figure 20. Accessibility measures of large city model 2.
 
-![](../img/large_model3.PNG)
+![](/img/large_model3.PNG)
 Figure 21. Accessibility measures of large city model 3.
 
-![](../img/large_model4.PNG)
+![](/img/large_model4.PNG)
 Figure 22. Accessibility measures of large city model 4.
 
-![](../img/small_model1.PNG)
+![](/img/small_model1.PNG)
 Figure 23. Accessibility measures of small city model 1.
 
-![](../img/small_model2.PNG)
+![](/img/small_model2.PNG)
 Figure 24. Accessibility measures of small city model 2.
 
-![](../img/small_model3.PNG)
+![](/img/small_model3.PNG)
 Figure 25. Accessibility measures of small city model 3.
 
-![](../img/small_model4.PNG)
+![](/img/small_model4.PNG)
 Figure 26. Accessibility measures of small city model 4.
 
 The results are shown in Table 4 and Figure 19-26. 
