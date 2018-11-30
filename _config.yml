@@ -9,6 +9,14 @@ url: "http://cyunguo.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/cyunguo/cyunguo.github.io.git" # you code repository
 
+# Default settings
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: true
+
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Life before death. <br> Strength before weakness. <br> Journey before destination."
