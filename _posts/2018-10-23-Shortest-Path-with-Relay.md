@@ -2,7 +2,7 @@
 layout:     post
 title:      Shortest Path with Relay
 subtitle:   Sub-problem of Traffic Assignment Problem (TAP)
-date:       2018-05-05
+date:       2018-10-23
 author:     YC
 header-img: img/post-bg-kuaidi.jpg
 catalog: true
