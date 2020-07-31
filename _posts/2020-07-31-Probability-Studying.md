@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ABCDE
+title:      Probability Studying
 subtitle:   Sub-problem of Traffic Assignment Problem (TAP)
 date:       2020-07-31
 author:     YC
