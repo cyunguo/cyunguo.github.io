@@ -1,13 +1,13 @@
 ---
 layout:     post
 title:      Probability Studying
-subtitle:   Sub-problem of Traffic Assignment Problem (TAP)
+subtitle:   Probability: Theory and Examples From Rick Durrett
 date:       2020-07-31
 author:     YC
 header-img: img/post-bg-kuaidi.jpg
 catalog: true
 tags:
-    - Research
+    - Probability
 ---
 
 > The ideas in blog mainly comes from the Probability: Theory and Examples --- Rick Durrett.
