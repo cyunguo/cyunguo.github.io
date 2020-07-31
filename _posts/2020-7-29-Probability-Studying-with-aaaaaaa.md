@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Probability Studying
+title:      Probability Studying with aaaaaaa
 subtitle:   Probability: Theory and Examples - From Rick Durrett
 date:       2020-7-29
 author:     wenjie 
